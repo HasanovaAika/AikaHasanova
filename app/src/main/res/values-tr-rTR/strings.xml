@@ -3,4 +3,24 @@
     <string name="app_name">Android Labs</string>
     <string name="hello_message">Merhaba Dunya</string>
     <string name="ButtonText">Ben\’dugme</string>
-</resources>
+    <string name="ButtonText2">Buraya tikla</string>
+    <string name="look_at_my_gui">GUI bakin:</string>
+    <string name="check_this_out">Deneme</string>
+    <string name="switch_on_off">ac/kapa</string>
+    <string name="type_here">buraya yaz</string>
+    <string name="i_m_a_button">Ben dugme</string>
+    <string name="emailMessage">e mail adresinizi girin:</string>
+    <string name="emailHint">email adresinizi ekleyin</string>
+    <string name="passwordMessage">parolanizi girin</string>
+    <string name="loginMessage">mesajinizi ekleyin</string>
+
+    <string name="profileMessage">Senin profilin</string>
+    <string name="nameMessage">Senin Ismin:</string>
+    <string name="nameHint">Adınızı giriniz:</string>
+    <string name="emailProfileMessage">Senin e postan:</string>
+    <string name="emailProfileHint">e posta adresinizi girin</string>
+    <string name="pictureMessage">Senin resmin:</string>
+    <string name="pictureButtonMessage">Fotoğraf çekmek için yukarıdaki düğmeye tıklayın</string>
+
+
+    </resources>

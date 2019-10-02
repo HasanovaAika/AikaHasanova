@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profileMessage"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/nameText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nameMessage"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameHint"
+        android:textSize="25sp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/emailProfileText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailProfileMessage"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailProfileText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailProfileHint"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress" />
+
+
+    <TextView
+        android:id="@+id/pictureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pictureMessage"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/pictureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/picture_frame"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/pictureButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pictureButtonMessage"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

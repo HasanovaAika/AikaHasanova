@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayoutLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/look_at_my_gui"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonText2"
+        android:layout_gravity="fill"
+        android:orientation="horizontal"
+        />
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:orientation="horizontal"
+        android:text="@string/check_this_out"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        android:layout_gravity="fill"
+        android:orientation="horizontal"
+        />
+
+    <Switch
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:orientation="horizontal"
+        android:text="@string/switch_on_off"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/type_here"
+        android:inputType="textPersonName"
+        android:layout_gravity="fill"
+        android:orientation="horizontal"
+        />
+
+</RelativeLayoutLayout>

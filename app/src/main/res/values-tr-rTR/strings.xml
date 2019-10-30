@@ -22,5 +22,10 @@
     <string name="pictureMessage">Senin resmin:</string>
     <string name="pictureButtonMessage">Fotoğraf çekmek için yukarıdaki düğmeye tıklayın</string>
 
+    <string name="chatRoomGo">Sohbet odasina git</string>
+    <string name="chatRoomSend">Gonder</string>
+    <string name="chatRoomHint">Buraya yaz</string>
+    <string name="chatRoomReceive">kabul et</string>
+    <string name="todo">TODO</string>
 
-    </resources>
+</resources>

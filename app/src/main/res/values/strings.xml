@@ -21,6 +21,10 @@
     <string name="pictureMessage">Your picture:</string>
     <string name="pictureButtonMessage">Click the button above to take a picture</string>
 
-
+    <string name="chatRoomGo">Go to chat</string>
+    <string name="chatRoomSend">SEND</string>
+    <string name="chatRoomHint">Type here</string>
+    <string name="chatRoomReceive">RECEIVE</string>
+    <string name="todo">TODO</string>
 
 </resources>

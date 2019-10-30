@@ -5,17 +5,19 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProfileActivity<chatButton> extends AppCompatActivity {
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     ImageButton mImageButton;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
+    Button chatButton;
 
 
     private void dispatchTakePictureIntent() {
@@ -59,9 +61,15 @@ public class ProfileActivity extends AppCompatActivity {
             }
 
     });
+
+        chatButton = findViewById(R.id.chatButton);
+        chatButton.setOnClickListener(e -> {
+            Intent chatRoomPage = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+            startActivity(chatRoomPage);
+        });
+
+        Log.d(ACTIVITY_NAME, "In function: onCreate()");
     }
-
-
 
     @Override
     protected void onStart(){
